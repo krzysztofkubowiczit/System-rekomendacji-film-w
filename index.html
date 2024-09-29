@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>System Rekomendacji Filmów</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>System Rekomendacji Filmów</h1>
+
+    <label for="userId">Wprowadź ID użytkownika:</label>
+    <input type="number" id="userId" name="userId" value="1">
+
+    <button onclick="getRecommendations()">Pobierz rekomendacje</button>
+
+    <div id="recommendations">
+        <h2>Rekomendacje:</h2>
+        <ul id="movieList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

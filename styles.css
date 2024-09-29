@@ -1,0 +1,17 @@
+/* Podstawowe style */
+body {
+    font-family: sans-serif;
+}
+
+#recommendations {
+    margin-top: 20px;
+}
+
+#movieList {
+    list-style: none;
+    padding: 0;
+}
+
+    #movieList li {
+        margin-bottom: 10px;
+    }
